@@ -1,0 +1,12 @@
+package intership2.dao;
+import java.lang.Exception;
+import java.util.ArrayList;
+
+import intership2.dao.Address;
+public interface AddressDAO {
+	public boolean addAddress(Address address) throws Exception; 
+	public boolean delAddress(String sql) throws Exception; 
+	public boolean updateAddress(String sql) throws Exception;
+	public ArrayList<Address> getAddress(String sql) throws Exception;
+
+}
